@@ -5,7 +5,7 @@ function fizBuzz() {
     } else if (i % 3 === 0) {
       console.log("Fizz");
     } else if (i % 5 === 0) {
-      console.log("Fizz");
+      console.log("Buzz");
     } else {
       console.log("numers :", i);
     }
@@ -22,8 +22,9 @@ fizBuzz();
 //     if (i % 3 === 0 && i % 5 === 0) {
 //       results.push("Fizz buzz");
 //     } else if (i % 3 === 0) {
-//       results.push("buzz");
+//       results.push("fizz");
 //     } else if (i % 5 === 0) {
+//       results.push("buzz");
 //     } else {
 //       results.push(i);
 //     }
